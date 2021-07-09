@@ -2,7 +2,7 @@
 *Bot für den Discord Server "Psychologie Lernserver FUH"*
 
 ## Funktion
-### Juli 2020 ✨*Geburtsstunde*
+### Juli 2021 ✨*Geburtsstunde*
 
 * [Begrüßung](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/welcome.py) von neuen Servermitgliedern
   * Text in #herzlich-willkommen-an-neue-mitglieder

@@ -111,7 +111,7 @@ class Help(commands.Cog):
                                                                                                                     0] != '__none__' else 'zzzzzzzzzzzzzz')}
         sorted_commands = {k: v for k, v in sorted(data["command"].items(), key=lambda item: item[1]['syntax'])}
 
-        title = "Boty hilft dir!"
+        title = "Waltraud hilft dir 🐳"
         help_command = "!help" if not mod else "!mod-help"
         helptext = (
             f"Um ausführliche Hilfe zu einem bestimmten Kommando zu erhalten, gib **{help_command} <command>** ein. "
@@ -139,7 +139,7 @@ class Help(commands.Cog):
                     await utils.send_dm(ctx.author, "", embed=embed)
                     helptext = ""
                     msgcount = msgcount + 1
-                    title = f"Boty hilft dir! (Fortsetzung {msgcount})"
+                    title = f"Waltraud hilft dir (Fortsetzung {msgcount}) 🐳"
                 helptext += text
                 text = ""
 
