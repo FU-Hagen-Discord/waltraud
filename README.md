@@ -6,6 +6,7 @@
 
 * [Begrüßung](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/welcome.py) von neuen Servermitgliedern
   * Text in #herzlich-willkommen-an-neue-mitglieder
+* Nachrichten anpinnen über die 📌-Reaktion (cf. [waltraud.py](https://github.com/FU-Hagen-Discord/waltraud/blob/master/waltraud.py))
 * [Timer](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/timer.py) für stilles Lernen 
 
 ## Mitwirkung
