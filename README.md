@@ -11,11 +11,20 @@
 * Nachrichten anpinnen über die 📌-Reaktion (
   cf. [waltraud.py](https://github.com/FU-Hagen-Discord/waltraud/blob/master/waltraud.py))
 * [Timer](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/timer.py) für stilles Lernen
-
-### August 2021 📈*Erste größere Erweiterung*
-
 * [Rollenzuordnung](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/roles.py) durch Verwendung von
   Reaktionen
+* Produktivität
+  * [Timer](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/timer.py) für stilles Lernen oder Lerngruppen
+  * [Kalenderfunktion](https://github.com/FU-Hagen-Discord/waltraud/tree/master/cogs/appointments.py)
+  * Sammlung Nützlicher [Links](https://github.com/FU-Hagen-Discord/waltraud/tree/master/cogs/links.py) in den Channels
+  * [Umfragefunktion](https://github.com/FU-Hagen-Discord/waltraud/tree/master/cogs/polls.py)
+
+* [Text-Commands](https://github.com/FU-Hagen-Discord/waltraud/tree/master/cogs/text_commands.py)
+
+* Moderationswerkzeuge
+  * [Calmdown-Rollenzuweisung](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/calmdown.py)
+  * [ModMail](https://github.com/FU-Hagen-Discord/waltraud/blob/master/cogs/support.py) 
+
 
 ## Mitwirkung
 

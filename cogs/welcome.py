@@ -16,7 +16,7 @@ class Welcome(commands.Cog):
         msg = f"Herzlich willkommen auf dem Lernserversystem Psychologie für Studierende der FUH, {member.mention} :blush:\n\n" \
               f"**Aufgrund des grossen Andrangs auf den Server kann es bei Neuaufnahmen zu Verzögerungen kommen, dafür bitten wir um Entschuldigung.**\n\n" \
               f"Bitte beachte, dass du erst nach 10 Minuten Mitgliedschaft hier posten kannst. Das gibt dir genug Zeit, die Infos vorher durchzulesen. Damit dürften sich schon viele Fragen von selbst klären.\n\n" \
-              f"**Wenn du von deiner Fernuni-Email eine Email mit deinem Nicknamen hier und den belegten Modulen an**\n\n" \
+              f"**Wenn du aus deinem Fernuni-Email-Account (hier findest du den: https://studium.fernuni-hagen.de/ ) eine Email mit deinem Nicknamen hier und den belegten Modulen an**\n\n" \
               f":round_pushpin: Verifizierung-Psychologie-Lernserver@protonmail.com :round_pushpin:\n\n" \
               f"**schickst, können wir dir auch die geschlossenen Bereiche freigeben.**\n" \
               f"(Wenn du den Belegbogen lieber in einem Anruf mit Screensharing vorzeigen möchtest, geht das auch. Vereinbare dann bitte einen Termin mit <@!{self.verifier}> )\n" \
