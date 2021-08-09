@@ -5,7 +5,7 @@ from discord.ext import commands
 from dislash import *
 from dotenv import load_dotenv
 
-from cogs import help, timer, welcome
+from cogs import help, timer, welcome, roles
 
 # .env file is necessary in the same directory, that contains several strings.
 load_dotenv()
@@ -20,6 +20,7 @@ bot = commands.Bot(command_prefix='!', help_command=None, activity=discord.Game(
 bot.add_cog(help.Help(bot))
 bot.add_cog(timer.Timer(bot))
 bot.add_cog(welcome.Welcome(bot))
+bot.add_cog(roles.Roles(bot))
 
 SlashClient(bot, show_warnings=True)  # Stellt den Zugriff auf die Buttons bereit
 
