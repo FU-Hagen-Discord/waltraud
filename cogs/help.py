@@ -133,7 +133,7 @@ class Help(commands.Cog):
         sorted_groups = {k: v for k, v in sorted(data["category"].items(), key=lambda item: item[1]['title'] if item[0] != '__none__' else 'zzzzzzzzzzzzzz')}
         sorted_commands = {k: v for k, v in sorted(data["command"].items(), key=lambda item: item[1]['syntax'])}
 
-        title = "Boty hilft dir!"
+        title = "Waltraud hilft dir 🐋"
         help_command = "!help" if not mod else "!admin-help"
         helptext = (f"Um ausführliche Hilfe zu einem bestimmten Kommando zu erhalten, gib **{help_command} <command>** ein. "
                     f"Also z.B. **{help_command} stats** um mehr über das Statistik-Kommando zu erfahren.")
@@ -160,7 +160,7 @@ class Help(commands.Cog):
                     await utils.send_dm(ctx.author, "", embed=embed)
                     helptext = ""
                     msgcount = msgcount + 1
-                    title = f"Boty hilft dir! (Fortsetzung {msgcount})"
+                    title = f"Waltraud hilft dir (Fortsetzung {msgcount}) 🐋"
                 helptext += text
                 text = ""
 
@@ -197,7 +197,7 @@ class Help(commands.Cog):
     async def help_all(self, ctx, mod=False):
         sorted_groups = {k: v for k, v in sorted(data["category"].items(), key=lambda item: item[1]['title'] if item[0] != '__none__' else 'zzzzzzzzzzzzzz')}
         sorted_commands = {k: v for k, v in sorted(data["command"].items(), key=lambda item: item[1]['syntax'])}
-        title = "Boty hilft dir!"
+        title = "Waltraud hilft dir 🐋"
         helptext = ("Um ausführliche Hilfe zu einem bestimmten Kommando zu erhalten, gib **!help <command>** ein. "
                     "Also z.B. **!help stats** um mehr über das Statistik-Kommando zu erfahren.\n\n\n")
         msgcount = 1
@@ -224,7 +224,7 @@ class Help(commands.Cog):
                     await utils.send_dm(ctx.author, "", embed=embed)
                     helptext = ""
                     msgcount = msgcount + 1
-                    title = f"Boty hilft dir! (Fortsetzung {msgcount})"
+                    title = f"Waltraud hilft dir! (Fortsetzung {msgcount}) 🐋"
                 helptext += text
                 text = ""
 

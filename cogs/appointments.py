@@ -15,7 +15,7 @@ from cogs.help import help, handle_error, help_category
 def get_ics_file(title, date_time, reminder, recurring):
     fmt = "%Y%m%dT%H%M"
     appointment = f"BEGIN:VCALENDAR\n" \
-                  f"PRODID:Boty McBotface\n" \
+                  f"PRODID:Waltraud\n" \
                   f"VERSION:2.0\n" \
                   f"BEGIN:VTIMEZONE\n" \
                   f"TZID:Europe/Berlin\n" \

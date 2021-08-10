@@ -10,7 +10,7 @@ from cogs.help import help, handle_error, help_category
 
 
 @help_category("updater", "Updater",
-               "Diese Kommandos werden zum Updaten von Nachrichten benutzt, die Boty automatisch erzeugt.")
+               "Diese Kommandos werden zum Updaten von Nachrichten benutzt, die Waltraud automatisch erzeugt.")
 @help_category("info", "Informationen", "Kleine Helferlein, um schnell an Informationen zu kommen.")
 class Roles(commands.Cog):
     def __init__(self, bot):
