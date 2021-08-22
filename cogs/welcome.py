@@ -14,7 +14,7 @@ class Welcome(commands.Cog):
     async def on_member_join(self, member):
         channel = await self.bot.fetch_channel(self.channel_id)
         msg = f"Herzlich willkommen auf dem Lernserversystem Psychologie für Studierende der FUH, {member.mention} :blush:\n\n" \
-              f"**Wegen des großen Andrangs auf den Server und der anstehenden Klausuren verursachen ca. 2 -3 Wochen Wartezeit bei der Aufnahme. Wer die Mail aus Moodle geschickt hat oder seinen Belegbogen an <@!{self.verifier}> geschickt hat, wird automatisch aufgenommen, Ihr bekommt eine private Nachricht, wenn es soweit ist.**\n\n" \
+              f"**Der große Andrang auf den Server und die anstehenden Klausuren verursachen ca. 2 -3 Wochen Wartezeit bei der Aufnahme. Wer die Mail aus Moodle geschickt hat oder seinen Belegbogen an <@!{self.verifier}> geschickt hat, wird automatisch aufgenommen, Ihr bekommt eine private Nachricht, wenn es soweit ist.**\n\n" \
               f"Bitte beachte, dass du erst nach 10 Minuten Mitgliedschaft hier posten kannst. Das gibt dir genug Zeit, die Infos vorher durchzulesen. Damit dürften sich schon viele Fragen von selbst klären.\n\n" \
               f"**Wenn du aus deinem Fernuni-Email-Account (hier findest du den: https://studium.fernuni-hagen.de/ ) eine Email mit deinem Nicknamen hier und den belegten Modulen an**\n\n" \
               f":round_pushpin: Verifizierung-Psychologie-Lernserver@protonmail.com :round_pushpin:\n\n" \
